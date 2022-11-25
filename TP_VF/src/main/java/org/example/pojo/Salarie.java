@@ -1,8 +1,8 @@
 package src.main.java.org.example.pojo;
 
 public class Salarie {
-    protected double salaire;
-    protected String nom;
+    private double salaire;
+    private String nom;
 
     public Salarie(double salaire,String nom) {
         this.nom=nom;
