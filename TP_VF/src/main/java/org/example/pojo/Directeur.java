@@ -8,6 +8,9 @@ public class Directeur extends Salarie{
         this.primeDirecteur=primeDirecteur;
 
     }
+    public  Directeur() {
+        primeDirecteur = 0.0;
+    }
     public double getprimeDirecteur() {
         return primeDirecteur;
 

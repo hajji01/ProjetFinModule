@@ -6,6 +6,9 @@ public class Chef extends Salarie{
         super(salaire,nom);
         this.primeChef=primeChef;
     }
+    public Chef() {
+        primeChef = 0.0;
+    }
 
     public double getprimeChef() {
         return primeChef;

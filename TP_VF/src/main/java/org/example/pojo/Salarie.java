@@ -8,6 +8,10 @@ public class Salarie {
         this.nom=nom;
         this.salaire=salaire;
     }
+    public Salarie() {
+        nom = "";
+        salaire = 0;
+    }
 
     public double getSalaire() {
         return this.salaire;
